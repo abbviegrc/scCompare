@@ -7,20 +7,11 @@ Single-cell RNA sequencing (scRNA-seq) datasets have been widely used to identif
 <br/><br/>
 ![alt text](https://github.com/abbviegrc/scCompare/blob/main/scCompare.png?raw=true)
 
-## Tutorials
-<h3><p align="center">
-    <br />
-    <a href="https://github.com/abbviegrc/IBDTransDB/blob/main/tutorial/IBDExplore_tutorial.pdf">IBDExplore</a>
-    .
-    <a href="https://github.com/abbviegrc/IBDTransDB/blob/main/tutorial/IBDCompare_tutorial.pdf">IBDCompare</a>
-    .
-    <a href="https://github.com/abbviegrc/IBDTransDB/blob/main/tutorial/IBDIntegtate_tutorial.pdf">IBDIntegrate</a>
-    
-  </p></h3>
+## <a href="https://github.com/abbviegrc/IBDTransDB/blob/main/tutorial/IBDExplore_tutorial.pdf">Tutorial</a>
 
 ## Run locally
-IBDTransDB runs in Shinyapps.io server that takes around 1 miniute to initialize each app for the first time access. To avoid any waiting time, users can also download the codes from Github and IBDTransDB database from <a href="https://www.icloud.com/iclouddrive/013D9ewhOhNjj-5tErDEWnhow#IBDTransDB" target="_blank">https://www.icloud.com/iclouddrive/013D9ewhOhNjj-5tErDEWnhow#IBDTransDB</a> and run RShiny locally. This will make analyses much faster. After downloading the codes and database, users should put the database into each module folder and run RShiny in the RStudio.
+scCompare runs in Shinyapps.io server that takes around 1 miniute to initialize each app for the first time access. To avoid any waiting time, users can also download the codes from Github and scCompare database from <a href="https://www.icloud.com/iclouddrive/013D9ewhOhNjj-5tErDEWnhow#IBDTransDB" target="_blank">https://www.icloud.com/iclouddrive/013D9ewhOhNjj-5tErDEWnhow#IBDTransDB</a> and run RShiny locally. This will make analyses much faster.
 
 ## Contract
-Pranav Sahasrabudhe - pranav.sahasrabudhe@abbvie.com</br>
+Shweta Yadav - shweta.yadav@abbvie.com</br>
 Jing Wang - wang.jing@abbvie.com
