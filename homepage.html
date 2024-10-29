@@ -1,0 +1,191 @@
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Montserrat|Raleway');
+    
+    .container-text-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      white-space: normal;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      max-width: 100%;
+      padding: 10px;
+    }
+    
+    .lead {
+      text-align: justify;
+      white-space: normal;
+      max-width: 100%;
+      padding: 10px;
+    }
+    
+    .run-button-container {
+      text-align: center;
+    }
+
+    .run-button-text {
+      font-size: 24px;
+    }
+
+    .btn-primary {
+      border: 2px solid #26de5a;
+      color: white;
+      z-index: 10;
+    }
+
+    .run-button-wrapper:before, .run-button-wrapper:after {
+      content: " ";
+      width: 200px;
+      height: 1px;
+      margin: 0 10px;
+      vertical-align: super;
+      background-color: black;
+      display: inline-block;
+      z-index: -1;
+    }
+
+    .dataset-image {
+      width: 80%;
+      border: 1px solid black;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+
+    .circle {
+      width: 200px;
+      height: 200px;
+      line-height: 200px;
+      border: 5px solid #26de5a;
+      border-radius: 50%;
+      font-size: 40px;
+      color: #26de5a;
+      text-align: center;
+      background: white;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .dataset-stats {
+      text-align: center;
+    }
+
+    .dataset-section img {
+      max-width: 150px;
+    }
+    
+    .text-justify {
+      text-align: justify;
+    }
+    
+    .text-center {
+      text-align: center;
+    }
+
+    .section-divider {
+      border: none;
+      background-color: #4fbfa8;
+      height: 1px;
+    }
+    
+    .block {
+      background-color: white;
+      padding: 20px;
+      border: 1px solid;
+      display: inline-block;
+      margin: 20px;
+    }
+
+    h3 {
+      color: #333;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: .1em;
+      line-height: 1.2;
+    }
+
+    p {
+      color: #333;
+    }
+
+    h1 {
+      margin: 50px 0;
+    }
+
+    h1.title {
+      color: #416983;
+    }
+    
+    h1:after, h1:before {
+        content: " ";
+        display: block;
+        width: 100px;
+        height: 2px;
+        margin: 20px auto 20px;
+        background: #4fbfa8;
+    }
+
+    h1.title:after, h1.title:before {
+        width: 100%;
+    }
+    
+    @media (max-width: 768px) {
+      .run-button-text {
+        font-size: 18px;
+      }
+    }
+    
+  </style>
+</head>
+
+<!-- ############ -->
+<div class="container">
+  <div class="block">
+  <div class="row">
+    <div class="col-12 text-center">
+      <button id="start-button" class="btn btn-lg btn-primary fit-h1">Start</button>
+  </div>
+</div>
+<br>
+<!-- ############ -->
+
+<!-- ############ -->
+<div class="row">
+  <div class="col-12 text-center">
+    <p class="run-button-text">Use the scCompare tool and discover new insights</p>
+    <div class="run-button-wrapper">
+      <a class="btn btn-lg btn-primary" href="User Manual for scCompare.pdf" download>Download scCompare Demo</a>
+      </div>
+      </div>
+      </div>
+<br>
+<!-- ############ -->
+
+<!-- ############ -->
+<!-- Description of scCompare  -->
+<div class="row">
+    <div class="col-12">
+      <h3 class="text-center">WHAT WE PROVIDE</h3>
+      <p class="lead text-justify"> Single-cell RNA sequencing (scRNA-seq) datasets have been widely used to identify the cell types and marker genes with pivotal roles in driving pathogenesis and progression of auto-immune diseases. Comparative analysis of different cell types or diseases across multiple scRNA-seq datasets can reveal the homogeneous and heterogeneous pathogenesis, and a comprehensive web-based comparison tool that could streamline this process is not yet available. We introduce scCompare, a web-based platform for scRNA-seq comparisons in autoimmune diseases. scCompare includes 2,125 differential gene lists from 100 scRNA-seq datasets in 22 auto-immune diseases and a query system supporting 170 standardized keywords from four attributes (disease, cell type, tissue, and treatment). scCompare also provides three modules enabling several comparative analysis and visualization options. geneQuery supports comparisons of queried genes across differential gene lists identified from multiple scRNA-seq datasets. DEGEnricher performs cell-type -specific enrichment analysis across studies based on a user-input gene list. DEGCompare allows interactive comparisons of multiple differential gene lists of many studies and performs pathway enrichment analyses. Using two case studies as examples, we demonstrated that scCompare represents a unique platform for biologists to identify, compare and validate the pathogenesis at the single-cell levels among auto-immune diseases.
+      </p>
+    </div>
+    
+    <div class="col-12 text-center">
+      <img class="dataset-image img-responsive d-block" src="scCompare_summary.PNG" alt="Image">
+    </div>
+  </div>
+  <br>
+  <hr class="section-divider">
+    <br>
+  <br>
+  <p style="font-size: 18px;">
+    NOTE: scCompare runs in Shinyapps.io server that takes around 30 seconds to initialize the apps for the first time access. After initialization, the apps run fast. If taking over 30 seconds, please close the page and reopen again, which will reduce waiting time. 
+  </p>
+  <p style="font-size: 18px;">
+    <font color="red">To avoid any waiting time, users can also download the scCompare codes and database from <a href="https://github.com/abbviegrc/scCompare">https://github.com/abbviegrc/scCompare</a> and run RShiny locally.</font>
+  </p>
+  <br>
+  <br>
+  </div>
+</div>

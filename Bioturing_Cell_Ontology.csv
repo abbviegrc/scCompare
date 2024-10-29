@@ -1,0 +1,130 @@
+parent,child
+cell,abnormal cell
+cell,ciliated cell
+cell,connective tissue cell
+cell,contractile cell
+cell,embryonic cell
+cell,epithelial cell
+cell,hematopoietic cell
+cell,melanocyte
+cell,mural cell
+cell,neural cell
+cell,perivascular cell
+cell,precursor cell
+cell,secretory cell
+cell,transit amplifying cell
+connective tissue cell,fibroblast
+connective tissue cell,stromal cell
+contractile cell,muscle cell
+contractile cell,myofibroblast cell
+embryonic cell,mesodermal cell
+epithelial cell,brush cell
+epithelial cell,endothelial cell
+epithelial cell,epithelial cell of lung
+epithelial cell,intestinal epithelial cell
+epithelial cell,interstitial cell of Cajal 
+epithelial cell,squamous epithelial cell
+hematopoietic cell,hematopoietic precursor cell
+hematopoietic cell,leukocyte
+hematopoietic cell,myeloid cell
+neural cell,glial cell
+precursor cell,neuroblast (sensu vertebrata)
+precursor cell,osteoblast
+precursor cell,progenitor cell
+precursor cell,stem cell
+secretory cell,club cell
+secretory cell,endocrine cell
+secretory cell,exocrine cell
+secretory cell,glandular epithelial cell
+endocrine cell,enteroendocrine cell
+endothelial cell,endothelial cell of vascular tree
+epithelial cell of lung,pneumocyte
+fibroblast,preadipocyte
+glandular epithelial cell,goblet cell
+glial cell,Schwann cell
+hematopoietic precursor cell,hematopoietic lineage restricted progenitor cell
+hematopoietic precursor cell,hematopoietic oligopotent progenitor cell
+intestinal epithelial cell,enterocyte
+intestinal epithelial cell,paneth cell
+leukocyte,myeloid leukocyte
+leukocyte,lymphocyte
+muscle cell,smooth muscle cell
+myeloid cell,erythroid lineage cell
+myeloid cell,platelet
+squamous epithelial cell,keratinocyte
+squamous epithelial cell,mesothelial cell
+stem cell,multi fate stem cell
+stem cell,somatic stem cell
+endothelial cell of vascular tree,capillary endothelial cell
+endothelial cell of vascular tree,endothelial cell of artery
+endothelial cell of vascular tree,endothelial cell of lymphatic vessel
+endothelial cell of vascular tree,vein endothelial cell
+erythroid lineage cell,erythrocyte
+hematopoietic lineage restricted progenitor cell,pre conventional dendritic cell
+hematopoietic lineage restricted progenitor cell,pro B cell
+hematopoietic oligopotent progenitor cell,common lymphoid progenitor
+lymphocyte,B cell
+lymphocyte,innate lymphoid cell
+lymphocyte,plasma cell
+lymphocyte,T cell
+multi fate stem cell,intestinal crypt stem cell
+myeloid leukocyte,dendritic cell
+myeloid leukocyte,granulocyte
+myeloid leukocyte,macrophage
+myeloid leukocyte,mast cell
+myeloid leukocyte,monocyte
+pneumocyte,type I pneumocyte
+pneumocyte,type II pneumocyte
+smooth muscle cell,vascular associated smooth muscle cell
+somatic stem cell,basal cell
+B cell,immature B cell
+B cell,mature B cell
+B cell,precursor B cell
+dendritic cell,conventional dendritic cell
+dendritic cell,langerhans cell
+dendritic cell,plasmacytoid dendritic cell
+granulocyte,neutrophil
+innate lymphoid cell,group 1 innate lymphoid cell
+innate lymphoid cell,group 2 innate lymphoid cell
+innate lymphoid cell,group 3 innate lymphoid cell
+macrophage,tissue resident macrophage
+monocyte,classical monocyte
+monocyte,intermediate monocyte
+monocyte,non classical monocyte
+plasma cell,IgA plasma cell
+plasma cell,IgG plasma cell
+plasma cell,IgM plasma cell
+T cell,CD4 positive alpha beta T cell
+T cell,CD8 positive alpha beta T cell
+T cell,effector T cell
+T cell,gamma delta T cell
+T cell,intraepithelial lymphocyte
+T cell,mature NK T cell
+T cell,memory  T cell
+T cell,mucosal invariant T cell
+T cell,naïve T cell
+T cell,regulatory T cell
+CD4 positive alpha beta T cell,CD4 positive alpha beta cytotoxic T cell
+CD4 positive alpha beta T cell,central memory CD4 positive alpha beta T cell
+CD4 positive alpha beta T cell,effector memory CD4 positive alpha beta T cell
+CD4 positive alpha beta T cell,naïve thymus derived CD4 positive alpha beta T cell
+CD4 positive alpha beta T cell,T follicular helper cell
+CD4 positive alpha beta T cell,T helper 1 cell
+CD4 positive alpha beta T cell,T helper 17 cell
+CD8 positive alpha beta T cell,CD8 positive alpha beta cytotoxic T cell
+CD8 positive alpha beta T cell,central memory CD8 positive alpha beta T cell
+CD8 positive alpha beta T cell,effector CD8 positive alpha beta T cell
+CD8 positive alpha beta T cell,effector memory CD8 positive alpha beta T cell
+CD8 positive alpha beta T cell,naïve thymus derived CD8 positive alpha beta T cell
+effector T cell,exhausted T cell
+group 1 innate lymphoid cell,natural killer cell
+mature B cell,germinal center B cell
+mature B cell,memory  B cell
+mature B cell,naïve B cell
+mature B cell,plasmablast
+T Cell,alpha beta intraepithelial T cell
+tissue resident macrophage,alveolar macrophage
+CD8 positive alpha beta T cell,effector memory CD8 positive alpha beta T cell terminally differentiated
+mature B cell,follicular B cell
+myeloid cell,megakaryocyte
+CD4 positive alpha beta T cell,T helper 2 cell
