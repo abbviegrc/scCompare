@@ -10,7 +10,7 @@ Single-cell RNA sequencing (scRNA-seq) datasets have been widely used to identif
 ## <a href="https://github.com/abbviegrc/scCompare/blob/main/Manual_scCompare.pdf">Tutorial</a>
 
 ## Run locally
-scCompare runs in Shinyapps.io server that takes around 30 seconds to initialize each app for the first time access. To avoid any waiting time, users can also download the codes from Github and scCompare database from <a href="https://www.icloud.com/iclouddrive/013D9ewhOhNjj-5tErDEWnhow#IBDTransDB" target="_blank">https://www.icloud.com/iclouddrive/013D9ewhOhNjj-5tErDEWnhow#IBDTransDB</a> and run RShiny locally.
+scCompare runs in Shinyapps.io server that takes around 30 seconds to initialize each app for the first time access. To avoid any waiting time, users can also download the codes from Github and scCompare database from <a href="https://www.icloud.com/iclouddrive/030bEebEaYOQUvzgBWFr37YSA#scCompare.db" target="_blank">https://www.icloud.com/iclouddrive/030bEebEaYOQUvzgBWFr37YSA#scCompare.db</a> and run RShiny locally.
 
 ## Contract
 Shweta Yadav - shweta.yadav@abbvie.com</br>
